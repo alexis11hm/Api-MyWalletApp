@@ -27,7 +27,6 @@ app.use('/api/auth', require('./routes/auth'))
 app.use('/api/wallets',require('./routes/wallet'))
 
 //Listen requests
-
 app.listen(process.env.PORT, () => {
     console.log(`Server run at port ${process.env.PORT}`)
 })
